@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Reset</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="header-container">
+                <h2>Password Reset</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="login-clm">
+
+                <form action="">
+                    <div class="form">
+
+                        <label for="password" class="email-address">New Password</label><br>
+                        <input type="password" placeholder="" name="uname" required><br>
+
+                        <label for="password" class="cfm-pwd">Confirm Password</label><br>
+                        <input type="password" placeholder="" name="uname" required><br>
+                        <button id="resetBtn2">RESET PASSWORD</button><br>
+                        
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" >
+      
+         document.getElementById("resetBtn2").onclick = function () {
+         location.href = "/page4.html";
+         }
+    </script>
+</body>
+</html>
